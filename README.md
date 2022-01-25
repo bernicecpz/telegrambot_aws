@@ -119,7 +119,7 @@ cd zip_to_upload
 
 // Install the relevant packages
 pip3 install requests -t  zip_to_upload/
-zip -r zip_to_upload/
+zip -r zip_to_upload.zip zip_to_upload/
 
 // Install awscli via PyPi
 pip3 install aws
